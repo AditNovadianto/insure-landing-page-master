@@ -123,7 +123,7 @@ const App = () => {
           alt="image-intro-desktop"
         />
 
-        <div className="relative lg:flex items-center lg:pb-[110px] justify-center bg-Dark-Violet pb-28">
+        <div className="relative -z-[200] lg:flex items-center lg:pb-[110px] justify-center bg-Dark-Violet pb-28">
           <img
             className=" lg:hidden"
             src={patternLeftMobile}
@@ -168,7 +168,7 @@ const App = () => {
           />
 
           <img
-            className="lg:w-[35%] hidden top-0 right-0 z-50 lg:block absolute"
+            className="hidden top-0 right-0 z-50 lg:block absolute"
             src={patternRightDesktop}
             alt="pattern-right-desktop"
           />
